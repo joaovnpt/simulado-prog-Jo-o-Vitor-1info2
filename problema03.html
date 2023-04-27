@@ -1,0 +1,8 @@
+<script>
+    const refri = prompt("Qual é o preço da garrafa de refrigerante?")
+    alert("O mercado está com um promoção imperdível, ao comprar duas garrafas você ganha 10% de desconto, e ao comprar 3, 15% de desconto!")
+    const precorefri = Number(refri)
+    const refri10 = Number(refri) * 0.90
+    const refri15 = Number(refri) * 0.85
+    alert(`O preço para compra de uma garrafa de refri é de R$${precorefri.toFixed(2).replace("." , ",")}, para compra de duas garrafas é de R$${(refri10 * 2).toFixed(2).replace("." , ",")} e para compra de 3 garrafas é de R$${(refri15 * 3).toFixed(2).replace("." , ",")}.`)
+</script>

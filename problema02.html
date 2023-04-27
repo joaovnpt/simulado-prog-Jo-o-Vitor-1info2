@@ -1,0 +1,6 @@
+<script>
+    const euro = Number(prompt("Qual é a cotação atual do Euro?").replace("," , "."))
+    const qnteuro = Number(prompt("Quantos Euros serão necessários para aviagem?").replace("," , "."))
+    const reais = euro * qnteuro
+    alert(`O valor necessário para a viagem é de R$${reais.toFixed(2).replace("." , ",")}`)
+</script>

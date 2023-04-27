@@ -1,0 +1,6 @@
+<script>
+    const bebida = Number(prompt("Qual é o preço do litro da bebida consumida?").replace("," , "."));
+    const qntbebida = Number(prompt("qual foi aquantidade em litros de bebida consumida?").replace("," , "."));
+    const total = bebida * qntbebida;
+    alert(`O valor total é de R$${total.toFixed(2).replace("." , ",")}`);
+</script>
